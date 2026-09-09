@@ -1,7 +1,8 @@
-data/
+node_modules/
+.next/
+.vercel/
 .env
 .env.*
 !.env.example
-node_modules/
 *.log
 .DS_Store

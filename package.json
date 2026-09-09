@@ -1,13 +1,20 @@
 {
   "name": "newborn-daily-log",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "新生儿日常记录：家庭共享、用户管理、JSON 文件数据库",
   "scripts": {
-    "start": "node server.js",
-    "check": "node --check server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "check": "node --check lib/newborn-api.js"
   },
   "engines": {
     "node": ">=22"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   }
 }
