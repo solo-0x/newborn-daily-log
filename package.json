@@ -1,0 +1,13 @@
+{
+  "name": "newborn-daily-log",
+  "version": "1.0.0",
+  "private": true,
+  "description": "新生儿日常记录：家庭共享、用户管理、JSON 文件数据库",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
