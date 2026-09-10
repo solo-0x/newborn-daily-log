@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "check": "node --check lib/newborn-api.js"
+    "check": "node --check lib/newborn-api.js && node --check lib/feed-reminder.js",
+    "test": "node --test test/*.test.mjs"
   },
   "engines": {
     "node": ">=22"
